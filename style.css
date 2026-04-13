@@ -389,6 +389,7 @@ ul {
   justify-content: center;
   gap: 15px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .social-btn {
@@ -430,6 +431,9 @@ footer {
     display: none; /* Em modo mobile simplificado, esconde links ou faz menu hamburger. Para simplicidade, vou escondê-los. */
   }
   .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-list {
     grid-template-columns: 1fr;
   }
   .main-title {
