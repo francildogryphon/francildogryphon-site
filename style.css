@@ -178,7 +178,7 @@ ul {
   display: flex;
   align-items: center;
   position: relative;
-  padding-top: 80px; /* Offset nav */
+  padding-top: 140px; /* Offset nav */
 }
 
 .hero-content {
