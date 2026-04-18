@@ -22,7 +22,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    
+    <!-- Cloudflare Web Analytics (Privacy-First & Performance) -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_CLOUDFLARE_TOKEN_HERE"}'></script>
 </head>
 <body>
 
@@ -35,6 +41,7 @@
       "alternateName": "FranCILDO Alves",
       "url": "https://francildogryphon.com.br",
       "jobTitle": "Analista de Tecnologia da Informação",
+      "knowsAbout": ["Green Software", "Software Engineering", "Computação Forense", "Teoria da Permissão"],
       "sameAs": [
         "https://linkedin.com/in/francildogryphon",
         "https://github.com/francildogryphon",
@@ -44,7 +51,20 @@
         "https://x.com/francildogrypho",
         "https://medium.com/@francildogryphon",
         "http://lattes.cnpq.br/2534956175238211"
-      ]
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://francildogryphon.com.br"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "FranCILDO Gryphon",
+      "url": "https://francildogryphon.com.br",
+      "description": "Portfólio de FranCILDO Gryphon - Green Software, Engenharia e Filosofia da Permissão."
     }
     </script>
 
@@ -69,10 +89,9 @@
                 <div class="hero-text">
                     <p class="tagline">Olá, o meu nome é</p>
                     <h1 class="main-title">FranCILDO <span class="gradient-text">Gryphon</span></h1>
-                    <h2 class="sub-title">Construindo tecnologia eficiente.</h2>
+                    <h2 class="sub-title">Espírito tendo uma experiência humana.</h2>
                     <p class="hero-description">
-                        Analista de TI, focado na criação de soluções de software aplicadas aos conceitos de <strong>Green Software</strong> para pequenas e médias empresas.
-                        Destaco-me também pela atuação empreendedora no desenvolvimento de projetos de alta performance direcionados ao <strong>setor de energia limpa e seguros</strong>.
+                        Analista de Sistemas focado em unir a eficiência tecnológica com a busca pela <strong>liberdade</strong> através da Teoria da Permissão. Alguém que está experimentando a vida, tendo experiências e aprendendo com elas.
                     </p>
                     <div class="hero-metrics">
                         <span class="metric"><strong>20+</strong> Anos de TI</span>
@@ -99,7 +118,7 @@
                 <div class="about-grid">
                     <div class="about-text">
                         <p>Como um veterano com mais de duas décadas de atuação na espinha dorsal da infraestrutura tecnológica corporativa, uno a visão executiva construída em meu MBA à precisão investigativa da Computação Forense para auditar e desenhar grandes ecossistemas.</p>
-                        <p>Acredito firmemente que o futuro da inovação reside na governança do <em>Green Software</em>. Reduzir emissões e desperdícios operacionais através de um código otimizado e arquiteturas robustas eleva a integridade e reduz drasticamente os custos da TI.</p>
+                        <p>Acredito firmemente que o futuro da inovação reside na governança do <em>Green Software</em> e na <strong>Biomimética</strong>. Minha jornada transita do ceticismo técnico à compreensão de que toda dívida material esconde um débito emocional — uma visão que aplico ao blog <strong>Teoria da Permissão</strong>.</p>
                         <p>Minhas habilidades centrais abrangem:</p>
                         <ul class="skills-list">
                             <li>Python & Java</li>
@@ -148,37 +167,72 @@
                 </div>
                 
                 <div class="projects-grid">
-                    <!-- Artigo 1 -->
+                    <!-- Projeto 1: Teoria da Permissão -->
                     <div class="project-card">
                         <div class="project-header">
-                            <span class="tech-tag">Artigo</span>
-                            <span class="tech-tag">DIO</span>
+                            <span class="tech-tag">Blog</span>
+                            <span class="tech-tag">Astro</span>
                         </div>
-                        <h3>Linguagens e Sustentabilidade</h3>
-                        <p>Uma análise comparativa que eu escrevi sobre como diferentes escolhas (Ex: Python vs Java) não apenas afetam o desempenho mas a pegada ambiental na computação.</p>
-                        <a href="https://dio.me/articles/python-vs-java-qual-linguagem-tem-o-menor-impacto-ambiental-671f0340dbba" target="_blank" class="project-link">Ler na DIO &rarr;</a>
+                        <h3>Teoria da Permissão</h3>
+                        <p>Portal desenvolvido com arquitetura de alta performance (Astro), focado em desenvolvimento humano, ética digital e Green Software.</p>
+                        <a href="https://teoriadapermissao.com.br" target="_blank" class="project-link">Visitar Portal &rarr;</a>
                     </div>
                     
-                    <!-- Youtube -->
+                    <!-- Projeto 2: Academia Belleza Pura -->
                     <div class="project-card">
                         <div class="project-header">
-                            <span class="tech-tag">Vídeos</span>
-                            <span class="tech-tag">YouTube</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Full-stack</span>
                         </div>
-                        <h3>Canal Oficial</h3>
-                        <p>No meu YouTube eu trago uma variedade sobre áreas que importam para o meu repertório: tecnologia, reviews detalhados de áreas e automobilismo.</p>
-                        <a href="https://youtube.com/@francildogryphon" target="_blank" class="project-link">Inscreva-se &rarr;</a>
+                        <h3>Belleza Pura Site</h3>
+                        <p>Desenvolvimento de solução completa de gestão e presença digital utilizando stack moderna em Python para o setor corporativo.</p>
+                        <a href="https://github.com/francildogryphon/bellezapura-site" target="_blank" class="project-link">Ver Código &rarr;</a>
                     </div>
 
-                    <!-- GitHub destaque -->
+                    <!-- Projeto 3: Green Software Certification -->
                     <div class="project-card">
                         <div class="project-header">
-                            <span class="tech-tag">Código</span>
-                            <span class="tech-tag">Open Source</span>
+                            <span class="tech-tag">Linux Foundation</span>
+                            <span class="tech-tag">LFC131</span>
                         </div>
-                        <h3>Repositórios Open Source</h3>
-                        <p>Construções práticas, estudos de arquitetura de software e scripts focados em eficiência energética e tecnologia da informação.</p>
-                        <a href="https://github.com/francildogryphon" target="_blank" class="project-link">Ver Código &rarr;</a>
+                        <h3>Green Software Practitioner</h3>
+                        <p>Repositório de especialização em princípios de sustentabilidade aplicada ao ciclo de vida de desenvolvimento de software.</p>
+                        <a href="https://github.com/francildogryphon/Green-Software-for-Practitioners-LFC131" target="_blank" class="project-link">Documentação &rarr;</a>
+                    </div>
+                    
+                    <!-- Projeto 4: DevOps/Infrastructure -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">DevOps</span>
+                        </div>
+                        <h3>Infraestrutura como Código</h3>
+                        <p>Projetos de conteinerização e automação de deploys focados em escalabilidade e baixo consumo de recursos operacionais.</p>
+                        <a href="https://github.com/francildogryphon/dio-toshiro-shibakita" target="_blank" class="project-link">Ver Projeto &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jornada & Identidade Section -->
+        <section class="journey section" id="jornada">
+            <div class="container">
+                <div class="journey-grid">
+                    <div class="journey-content">
+                        <span class="tagline">Filosofia & Mentalidade</span>
+                        <h2>A Jornada na <span class="accent">Aliança Divergente</span></h2>
+                        <p>Além da tecnologia, minha atuação é guiada pela busca de clareza, <strong>liberdade</strong> e autorização para avançar em todas as áreas da vida. Como parte da <strong>Aliança Divergente</strong>, exploro como protocolos de mentalidade podem transformar estagnação em autoridade.</p>
+                        <p>Sou o autor por trás do blog <strong>Teoria da Permissão</strong>, onde conecto conceitos de desenvolvimento humano às práticas da Engenharia de Software.</p>
+                        <div class="hero-actions">
+                            <a href="https://teoriadapermissao.com.br" target="_blank" class="btn-primary">Visitar o Blog &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="journey-card">
+                        <div class="quote-icon">"</div>
+                        <blockquote>
+                            Eficiência não é apenas sobre máquinas, é sobre permitir-se construir soluções que respeitam o tempo e a energia humana.
+                        </blockquote>
+                        <cite>— FranCILDO Gryphon</cite>
                     </div>
                 </div>
             </div>
@@ -191,17 +245,49 @@
                 <p>Estou sempre aberto para discutir sobre desenvolvimento verde, inovação em software ou para boas oportunidades de sinergia.</p>
                 
                 <div class="social-links">
-                    <a href="https://github.com/francildogryphon" target="_blank" class="social-btn">GitHub</a>
-                    <a href="https://linkedin.com/in/francildogryphon" target="_blank" class="social-btn">LinkedIn</a>
-                    <a href="https://youtube.com/@francildogryphon" target="_blank" class="social-btn">YouTube</a>
-                    <a href="https://medium.com/@francildogryphon" target="_blank" class="social-btn">Medium</a>
-                    <a href="https://www.tiktok.com/@francildogryphon" target="_blank" class="social-btn">TikTok</a>
-                    <a href="https://x.com/francildogrypho" target="_blank" class="social-btn">X (Twitter)</a>
-                    <a href="https://www.instagram.com/francildogryphon/" target="_blank" class="social-btn">Instagram</a>
-                    <a href="http://lattes.cnpq.br/2534956175238211" target="_blank" class="social-btn">Lattes</a>
+                    <a href="https://github.com/francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.28 1.15-.28 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://youtube.com/@francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.14 1 12 1 12s0 3.86.46 5.58a2.78 2.78 0 0 0 1.94 2c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.86 23 12 23 12s0-3.86-.46-5.58z"></path><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon></svg>
+                        YouTube
+                    </a>
+                    <a href="https://medium.com/@francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c0 3.3 1.8 6 4 6s4-2.7 4-6-1.8-6-4-6-4 2.7-4 6z"></path><path d="M12 12c0 3 1 5.5 2.2 5.5s2.2-2.5 2.2-5.5-1-5.5-2.2-5.5-2.2 2.5-2.2 5.5z"></path><path d="M20 12c0 2.8.4 5 1 5s1-2.2 1-5-.4-5-1-5-1 2.2-1 5z"></path></svg>
+                        Medium
+                    </a>
+                    <a href="https://www.tiktok.com/@francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+                        TikTok
+                    </a>
+                    <a href="https://x.com/francildogrypho" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                        X (Twitter)
+                    </a>
+                    <a href="https://www.instagram.com/francildogryphon/" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        Instagram
+                    </a>
+                    <a href="http://lattes.cnpq.br/2534956175238211" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                        Lattes
+                    </a>
+                    <a href="https://www.chess.com/member/francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path><path d="M7 21h10"></path><path d="M12 11v8"></path><path d="M9 21v-2c0-2 2-3 3-3s3 1 3 3v2"></path></svg>
+                        Chess.com
+                    </a>
+                    <a href="https://www.facebook.com/francildogryphon" target="_blank" class="social-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        Facebook
+                    </a>
                 </div>
                 
-                <p class="mailto-text">Ou me mande um e-mail em <a href="mailto:contato@francildogryphon.com.br" class="accent-link">contato@francildogryphon.com.br</a></p>
+                <p class="mailto-text">Ou me chame no <a href="https://www.instagram.com/francildogryphon/" target="_blank" class="accent-link">Instagram</a></p>
             </div>
         </section>
     </main>
@@ -209,10 +295,14 @@
     <footer>
         <div class="container">
             <p>Construído com ♥ e eficiência sustentável por FranCILDO Gryphon © <span id="year"></span></p>
-            <p class="small-text">Otimizado para o futuro na Cloudflare Pages.</p>
+            <div class="footer-links">
+                <a href="./legal/privacy-policy.html">Privacidade</a>
+                <span class="divider">|</span>
+                <a href="./legal/terms-of-use.html">Termos de Uso</a>
+            </div>
         </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
